@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 90px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+#nav>article{
+    height: 90px;
+    width: 92%;
+    /* border: 2px solid pink; */
+    display: flex;
+}
+
+#nav>article>.logo{
+    height: 90px;
+    width: 8.5%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    align-items: center;
+}
+#nav>article>.logo>img{
+    height: 60px;
+}
+
+#nav>article>.menu{
+    height: 90px;
+    width:35%;
+    /* border: 2px solid seagreen; */
+}
+
+#nav>article>.menu>ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     height: 89px;
+    
+}
+#nav>article>.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+#nav>article>.menu>ul>li>a>sup{
+    color: red;
+}
+#nav>article>.search{
+    height: 90px;
+    width: 45%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#nav>article>.search>.box{
+   
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   background-color: rgb(226, 222, 222);
+    
+    
+}
+#nav>article>.search>.box>i{
+    width: 8%;
+}
+#nav>article>.search>.box>input{
+    height: 37px;
+    width: 90%;
+   border: none;
+   outline: none;
+   background-color: rgb(226, 222, 222);
+  
+}
+
+#nav>article>.menu2{
+    height: 90px;
+    width: 12%;
+    /* border:  1px solid  gold; */
+}
+#nav>article>.menu2>ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 89%;
+}
+#nav>article>.menu2>ul>li>a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: black;
+}
+    
+#nav>article>.menu2>ul>li>i{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+
+
+
+
